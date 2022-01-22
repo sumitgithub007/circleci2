@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import io.cucumber.java.en.Given;
 import org.junit.Assert;
 
+import org.openqa.selenium.By;
+
 
 public class LoginClass {
 
