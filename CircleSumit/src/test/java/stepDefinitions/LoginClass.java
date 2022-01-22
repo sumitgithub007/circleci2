@@ -32,7 +32,9 @@ public class LoginClass {
 			 driver.get("https://mvnrepository.com");
 			 driver.get("https://www.google.com/");
 			 System.out.println("Title is ="+driver.getTitle());
-			 Assert.assertEquals("sumit", "ankit");
+			 Assert.assertEquals("sumit", "sumit");
+			
+				 System.out.println("url  is ="+driver.getCurrentUrl());
 
 			 driver.close();	 
 			 
