@@ -29,12 +29,14 @@ public class LoginClass {
 
 			 WebDriver driver = new ChromeDriver(chr);
 
-			 driver.get("https://mvnrepository.com");
-			 driver.get("https://www.google.com/");
+			 //driver.get("https://mvnrepository.com");
+			 driver.get("https://www.amazon.in/");
 			 System.out.println("Title is ="+driver.getTitle());
 			 Assert.assertEquals("sumit", "sumit");
 			
 				 System.out.println("url  is ="+driver.getCurrentUrl());
+				String d= driver.findElement(By.xpath("//div[@id='nav-xshop']/a[1]")).getText();
+		 System.out.println("value of xpath is ="+d);
 
 			 driver.close();	 
 			 
