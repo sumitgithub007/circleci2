@@ -28,6 +28,8 @@ public class LoginClass {
 			 WebDriver driver = new ChromeDriver(chr);
 
 			 driver.get("https://mvnrepository.com");
+			 driver.get("https://www.google.com/");
+			 Assert.assertEquals("sumit", "ankit");
 
 			 driver.close();	 
 			 
