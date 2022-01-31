@@ -25,7 +25,7 @@ public class LoginClass {
 			 
 			 chr.addArguments("--disable-gpu");
 			 
-				  //  
+				  //  //
 			 
 			 System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
 
